@@ -4,100 +4,100 @@ const quizData = {
       {
         "question": "1)What is a variable in Java?",
         "options": [
-          "A storage location for data that can be changed during the execution of the program",
-          "A fixed value in a program that does not change",
-          "A reserved area of memory to store data temporarily",
-          "None of the above"
+          "A) A storage location for data that can be changed during the execution of the program",
+          "B) A fixed value in a program that does not change",
+          "C) A reserved area of memory to store data temporarily",
+          "D) None of the above"
         ],
         "answer": "A storage location for data that can be changed during the execution of the program"
       },
       {
         "question": "2)What is the correct way to declare a variable in Java?",
         "options": [
-          "variableName = value",
-          "int variableName = value",
-          "variableName: value",
-          "declare variableName = value"
+          "A) variableName = value",
+          "B) int variableName = value",
+          "C) variableName: value",
+          "D) declare variableName = value"
         ],
         "answer": "int variableName = value"
       },
       {
         "question": "3)Which keyword is used to define the subclasses in Java?",
         "options": [
-          "extends",
-          "inherit",
-          "superclass",
-          "sub-class"
+          "A)extends",
+          "B)inherit",
+          "C)superclass",
+          "D)sub-class"
         ],
         "answer": "extends"
       },
       {
         "question": "4)What does JVM stand for in Java?",
         "options": [
-          "Java Virtual Machine",
-          "Java Virtual Method",
-          "Java Variable Method",
-          "Java Variable Machine"
+          "A)Java Virtual Machine",
+          "B)Java Virtual Method",
+          "C)Java Variable Method",
+          "D)Java Variable Machine"
         ],
         "answer": "Java Virtual Machine"
       },
       {
         "question": "5)What is the superclass of all classes in Java by default?",
         "options": [
-          "Superclass",
-          "Object",
-          "ParentClass",
-          "MainClass"
+          "A)Superclass",
+          "B)Object",
+          "C)ParentClass",
+          "D)MainClass"
         ],
         "answer": "Object"
       },
       {
         "question": "6)Which access specifier in Java allows a class to be accessed from anywhere?",
         "options": [
-          "private",
-          "default",
-          "public",
-          "protected"
+          "A)private",
+          "B)default",
+          "C)public",
+          "D)protected"
         ],
         "answer": "public"
       },
       {
         "question": "7)What is the output of the following code snippet?\n\n```java\nint x = 5;\nSystem.out.println(++x);\n```",
         "options": [
-          "5",
-          "6",
-          "Compiler Error",
-          "Runtime Error"
+          "A)5",
+          "B)6",
+          "C)Compiler Error",
+          "D)Runtime Error"
         ],
         "answer": "6"
       },
       {
         "question": "8)Which of the following is not a valid keyword in Java?",
         "options": [
-          "interface",
-          "string",
-          "float",
-          "double"
+          "A)interface",
+          "B)string",
+          "C)float",
+          "D)double"
         ],
         "answer": "string"
       },
       {
         "question": "9)What does the 'final' keyword signify in Java?",
         "options": [
-          "The variable cannot be changed once assigned",
-          "The class cannot be inherited",
-          "The method cannot be overridden",
-          "All of the above"
+          "A)The variable cannot be changed once assigned",
+          "B)The class cannot be inherited",
+          "C)The method cannot be overridden",
+          "D)All of the above"
         ],
         "answer": "All of the above"
       },
       {
         "question": "10)What is the main purpose of the 'break' statement in Java?",
         "options": [
-          "To exit a loop or switch statement",
-          "To skip the execution of code inside loops",
-          "To forcefully terminate the program",
-          "None of the above"
+          "A)To exit a loop or switch statement",
+          "B)To skip the execution of code inside loops",
+          "C)To forcefully terminate the program",
+          "D)None of the above"
         ],
         "answer": "To exit a loop or switch statement"
       }
