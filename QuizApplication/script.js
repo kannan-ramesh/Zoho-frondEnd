@@ -9,7 +9,7 @@ const quizData = {
           "C) A reserved area of memory to store data temporarily",
           "D) None of the above"
         ],
-        "answer": "A storage location for data that can be changed during the execution of the program"
+        "answer": "A) A storage location for data that can be changed during the execution of the program"
       },
       {
         "question": "2)What is the correct way to declare a variable in Java?",
@@ -19,7 +19,7 @@ const quizData = {
           "C) variableName: value",
           "D) declare variableName = value"
         ],
-        "answer": "int variableName = value"
+        "answer": "B) int variableName = value"
       },
       {
         "question": "3)Which keyword is used to define the subclasses in Java?",
@@ -29,7 +29,7 @@ const quizData = {
           "C)superclass",
           "D)sub-class"
         ],
-        "answer": "extends"
+        "answer": "A)extends"
       },
       {
         "question": "4)What does JVM stand for in Java?",
@@ -39,7 +39,7 @@ const quizData = {
           "C)Java Variable Method",
           "D)Java Variable Machine"
         ],
-        "answer": "Java Virtual Machine"
+        "answer": "A)Java Virtual Machine"
       },
       {
         "question": "5)What is the superclass of all classes in Java by default?",
@@ -49,7 +49,7 @@ const quizData = {
           "C)ParentClass",
           "D)MainClass"
         ],
-        "answer": "Object"
+        "answer": "B)Object"
       },
       {
         "question": "6)Which access specifier in Java allows a class to be accessed from anywhere?",
@@ -59,7 +59,7 @@ const quizData = {
           "C)public",
           "D)protected"
         ],
-        "answer": "public"
+        "answer": "C)public"
       },
       {
         "question": "7)What is the output of the following code snippet?\n\n```java\nint x = 5;\nSystem.out.println(++x);\n```",
@@ -69,7 +69,7 @@ const quizData = {
           "C)Compiler Error",
           "D)Runtime Error"
         ],
-        "answer": "6"
+        "answer": "B)6"
       },
       {
         "question": "8)Which of the following is not a valid keyword in Java?",
@@ -79,7 +79,7 @@ const quizData = {
           "C)float",
           "D)double"
         ],
-        "answer": "string"
+        "answer": "B)string"
       },
       {
         "question": "9)What does the 'final' keyword signify in Java?",
@@ -89,7 +89,7 @@ const quizData = {
           "C)The method cannot be overridden",
           "D)All of the above"
         ],
-        "answer": "All of the above"
+        "answer": "D)All of the above"
       },
       {
         "question": "10)What is the main purpose of the 'break' statement in Java?",
@@ -99,7 +99,7 @@ const quizData = {
           "C)To forcefully terminate the program",
           "D)None of the above"
         ],
-        "answer": "To exit a loop or switch statement"
+        "answer": "A)To exit a loop or switch statement"
       }
     ]
   };  

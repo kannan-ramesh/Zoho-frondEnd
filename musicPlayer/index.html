@@ -7,10 +7,28 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     </head>
     <body>
-
-        
+        <header>TAMIL MERSAL PLAYER</header>
+        <div class="music-container">
+            <div class="container">
+                <div class="music">
+                    <img src="music.jpg" alt="music">
+                    <h6 class="song-name">Song name</h6>
+                    <p class="artist">GV Praksh </p>
+                </div>
+                <div class="music-slider">
+                    <input type="range" id="slider">
+                    <audio id="myAudio" src="your_audio_file.mp3"></audio>
+                </div>
+                <div class="music-controller">
+                    <button id="back"><i class="fas fa-backward"></i></button>
+                    <button id="play"><i class="fas fa-play"></i></button>
+                    <button id="forward"><i class="fas fa-forward"></i></button>
+                </div>
+            </div>
+        </div>
         <script src="script.js" ></script>
     </body>
 </html>

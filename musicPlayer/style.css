@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('backimg.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+header {
+    background-color: coral;
+    width: 100%;
+    height: 70px;
+    font-size: 22px;
+    color: aliceblue;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.music-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 10px;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.music {
+    gap: 5px;
+}
+.music .song-name{
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.music img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.music p{
+    font-size: 14px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.music-slider {
+    width: 100%;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.music-controller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border:none;
+    border-radius: 50%;
+    background-color: #eee;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button i {
+    font-size: 24px;
+    color: #333;
+}
+button:hover{
+    background-color: #333;
+    color: aliceblue;
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+button:hover i {
+    color: aliceblue; 
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+input[type="range"] {
+    width: 100%;
+    appearance:none;
+    height: 5px; 
+    border-radius: 5px; 
+    background: #ddd;
+    outline: none;
+    margin-top: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 5px; 
+    height: 5px;
+    border-radius: 50%;
+    background: #333;
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 15px; 
+    height: 15px;
+    border-radius: 50%;
+    background: #333; 
+    cursor: pointer;
+}
