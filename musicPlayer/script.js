@@ -50,8 +50,18 @@ function loadSong(song) {
     image.src=song.image;
 
     audio.onloadedmetadata = () => {
+        slider.max = audio.duration;
         audio.play();
         playBtn.innerHTML = '<i class="fas fa-pause"></i>';
+    };
+    audio.ontimeupdate = () => {
+        const currentTime = audio.currentTime;
+        const duration = audio.duration;
+        const progress = (currentTime / duration) * 100;
+        slider.style.background = `linear-gradient(to right, black ${progress}%, #ddd ${progress}%)`;
+    };
+    audio.onended = () => {
+        playNextSong();
     };
 }
 
@@ -82,7 +92,6 @@ slider.addEventListener('input', () => {
     audio.currentTime = slider.value;
 });
 loadSong(songs[currentSongIndex]);
-audio.play();
 playBtn.addEventListener('click', togglePlay);
 forwardBtn.addEventListener('click', playNextSong);
 backBtn.addEventListener('click', playPreviousSong);
